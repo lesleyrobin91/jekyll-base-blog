@@ -3,3 +3,33 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header,
+footer,
+section {
+    padding: 5%;
+    border: 1px solid lightgrey;
+}
+
+.padded-1 {padding: 1rem;}
+
+.intro{
+    text-transform: uppercase;
+    background-color: lightblue;
+    padding-bottom: 1rem;
+}
+
+.tag{
+    border: 1px solid; 
+    padding: 0.4rem;
+    display: inline-block; 
+    border-radius: 5rem;
+    margin-top: 1rem;
+}
+
+.bg-image {
+    background-position: center; 
+    background-size: cover; 
+}
+
+.square { padding-bottom: 100%; }
