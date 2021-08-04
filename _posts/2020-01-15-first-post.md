@@ -4,6 +4,7 @@ title: My first post
 author: Tina May
 categories: [travel, Bali]
 featured_image: https://www.instituteofcode.com/houdini.jpg
+featured: true
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 ---
 

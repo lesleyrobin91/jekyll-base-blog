@@ -1,0 +1,16 @@
+---
+layout: default
+title: About
+---
+
+<section>
+
+    <h1>Curious to learn more about me?</h1>
+
+    {% for post in site.posts %}
+
+    <a href="{{ post.url }}"> {{ post.title }}</a>
+
+    {% endfor %}
+
+</section>

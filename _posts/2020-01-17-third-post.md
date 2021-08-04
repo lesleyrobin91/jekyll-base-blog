@@ -4,6 +4,7 @@ title: My third post
 author: Jonas
 categories: [self care, Bali]
 featured_image: https://www.instituteofcode.com/houdini.jpg
+featured: true
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 ---
 

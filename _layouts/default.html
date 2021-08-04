@@ -9,18 +9,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
     
     <link rel="stylesheet" type="text/css" href="/style.css" />
+
     <title>{{page.title}}</title>
+
 </head>
 
 <body>
 
-    <header>
-        This is our header
+    <header class="bg-light padded">
+        <nav>
+            <a href="/index.html"> Home </a>
+            <a href="/about.html"> About </a>
+            <a href="/blog.html"> Blog </a>
+        </nav>
     </header>
 
     {{content}}
 
-    <footer>
+    <footer class="padded bg-light">
         This is our footer
     </footer>
 </body>
