@@ -14,6 +14,28 @@ section {
 .padded {padding: 5%;}
 .padded-1 {padding: 1rem;}
 
+.center {text-align: center;}
+.right { text-align: right;}
+.left {text-align: left;}
+
+.light-text {color: white; }
+
+.landscape { padding-bottom: 66%; }
+.portrait-tall { padding-bottom: 175%; }
+.portrait { padding-bottom: 125%; }
+.square { padding-bottom: 100%; }
+
+.bg-image {
+    background-position: center; 
+    background-size: cover; 
+}
+
+.bg-dark {
+    background-color: grey;
+}
+
+.bg-light {background-color: #fbf2ea; }
+
 .intro{
     text-transform: uppercase;
     background-color: #fbf2ea;
@@ -27,12 +49,3 @@ section {
     border-radius: 5rem;
     margin-top: 1rem;
 }
-
-.bg-image {
-    background-position: center; 
-    background-size: cover; 
-}
-
-.square { padding-bottom: 100%; }
-
-.bg-light {background-color: #fbf2ea; }
